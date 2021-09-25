@@ -1,0 +1,24 @@
+/*global style and overriding of bulma variables*/
+
+
+$family-sans-serif: "Nunito", sans-serif;
+
+/*update buma's component variables*/
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+/*Global styles*/
+html, body{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+
+html{
+    background-image: url("../src/assets/trianglify-lowres.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+}
